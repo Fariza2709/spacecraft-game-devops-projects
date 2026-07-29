@@ -1,5 +1,5 @@
-import {createDomNode, addDomNode} from '../utils'
-import Star from '../Star'
+import {createDomNode, addDomNode} from '../utils.js'
+import Star from '../Star.js'
 
 export class GameUI {
   constructor(game) {

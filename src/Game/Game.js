@@ -1,6 +1,6 @@
-import config from '../config'
-import {GameEnemyService} from './GameEnemyService'
-import {GameUI} from './GameUI'
+import config from '../config.js'
+import { GameEnemyService } from './GameEnemyService.js'
+import { GameUI } from './GameUI.js'
 
 const STARTING = 'starting'
 const PLAYING = 'running'

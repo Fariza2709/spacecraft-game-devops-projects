@@ -1,13 +1,13 @@
-import {Bullet} from './Bullet'
-import {Thunder} from './Thunder'
-import mouse from './Mouse'
+import { Bullet } from './Bullet.js'
+import { Thunder } from './Thunder.js'
+import mouse from './Mouse.js'
 import {
   addDomNode,
   createDomNode,
   lerp,
   rand,
   styleObjectToCssText,
-} from './utils'
+} from './utils.js'
 
 export default class Fighter {
   constructor() {

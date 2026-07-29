@@ -1,4 +1,4 @@
-import {addDomNode, rand} from './utils'
+import { addDomNode, rand } from './utils.js'
 
 const emojies = ['👽', '👾', '🚀', '💣', '🔥', '💀', '🤖', '🌌', '🎃', '🌠']
 

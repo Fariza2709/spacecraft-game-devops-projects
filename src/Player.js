@@ -1,6 +1,14 @@
-import mouse from './Mouse'
-import {lerp} from './utils'
-import config from './config'
+import mouse from './Mouse.js'
+import { lerp } from './utils.js'
+import config from './config.js'
+import Game from './Game/Game.js'
+import { GameEnemyService } from './Game/GameEnemyService.js'
+import { GameUI } from './Game/GameUI.js'
+import Fighter from './Fighter.js'
+import Star from './Star.js'
+import { Thunder } from './Thunder.js'
+import Enemy from './Enemy.js'
+import { Bullet } from './Bullet.js'
 
 export default class Player {
   constructor({fighter}) {

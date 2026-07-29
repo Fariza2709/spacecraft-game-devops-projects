@@ -1,4 +1,4 @@
-import {lerp, rand} from './utils'
+import { lerp, rand } from './utils.js'
 
 export default class Star {
   constructor({ctx}) {

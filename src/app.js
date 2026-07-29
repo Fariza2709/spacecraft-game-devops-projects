@@ -1,6 +1,14 @@
-import Player from './Player'
-import Game from './Game/Game'
-import Fighter from './Fighter'
+import Player from './Player.js'
+import Game from './Game/Game.js'
+import { GameEnemyService } from './Game/GameEnemyService.js'
+import { GameUI } from './Game/GameUI.js'
+import Fighter from './Fighter.js'
+import Star from './Star.js'
+import mouse from './Mouse.js'
+import { Thunder } from './Thunder.js'
+import Enemy from './Enemy.js' 
+import { Bullet } from './Bullet.js'
+
 
 const root = document.getElementById('root')
 window.root = root
